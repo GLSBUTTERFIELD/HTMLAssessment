@@ -20,7 +20,7 @@
 	<p><strong>Venenatis</strong> imperdiet tempor convallis lacinia facilisis himenaeos ut blandit lobortis, scelerisque dictumst bibendum semper turpis sodales vulputate consequat. Curabitur ullamcorper et elementum hendrerit porttitor rhoncus id integer, purus aptent vel quis placerat maecenas fringilla. Varius himenaeos lobortis ullamcorper semper accumsan egestas class integer, vel est vulputate vehicula fermentum facilisis sociosqu magnis urna, proin scelerisque quisque condimentum dis at per.</p>
 
 
-<h1>TABLE</h1>
+	<h1>TABLE</h1>
 	<table>
 		<thead>
 			<tr>
@@ -38,7 +38,6 @@
 				<th>Q3</th>
 				<th>Q4</th>
 			</tr>
-
 			<tr>
 				<th>Detroit</th>
 				<td>0</td>
@@ -47,7 +46,6 @@
 				<td>3</td>
 				<td>24</td>
 			</tr>
-
 			<tr>
 				<th>Indianapolis</th>
 				<td>3</td>
@@ -65,49 +63,75 @@
 				<td>7</td>
 				<td>3</td>
 				<td>30</td>
-	</table>
+			</tr>
+	</table><br>
 
-<h1>LIST</h1>
-<ul>
-	<li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Detroit_Lions_logo.svg/100px-Detroit_Lions_logo.svg.png" alt="Detroit Lions blue and silver lion logo"></li>
-	<a href="https://www.detroitlions.com/" target="_blank">Detroit Lions</a>
-		<li>Coach: Dan Campbell</li>
-		<li>QB<ol>
-			<li>Jared Goff</li>
-			<li>Hendon Hooker</li></ol></li>
-		<li>WR<ol>
-			<li>Amon-Ra St. Brown</li>
-			<li>Jameson Williams</li>
-			<li>Allen Robinson</li></ol></li>
-		<li>RB<ol>
-			<li>David Montgomery</li>
-			<li>Jahmyr Gibbs</li>
-			<li>Craig Reynolds</li>
-			<li>Sione Vaki</li></ol></ul></li>
-<br>
+	<h1>LIST</h1>
+		<ul>
+			<li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Detroit_Lions_logo.svg/100px-Detroit_Lions_logo.svg.png" alt="Detroit Lions blue and silver lion logo"></li>
+			<a href="https://www.detroitlions.com/" target="_blank">Detroit Lions</a>
+				<li>Coach: Dan Campbell</li>
+				<li>QB<ol>
+					<li>Jared Goff</li>
+					<li>Hendon Hooker</li></ol></li>
+					<li>WR<ol>
+						<li>Amon-Ra St. Brown</li>
+						<li>Jameson Williams</li>
+						<li>Allen Robinson</li></ol></li>
+						<li>RB<ol>
+							<li>David Montgomery</li>
+							<li>Jahmyr Gibbs</li>
+							<li>Craig Reynolds</li>
+							<li>Sione Vaki</li></ol></ul></li>
+							<br>
 
-<ul>
-	<li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Indianapolis_Colts_logo.svg/100px-Indianapolis_Colts_logo.svg.png" alt="Indianapolis Colts navy horsehoe logo with white dots"></li>
-	<a href="https://www.colts.com/" target="_blank">Indianapolis Colts</a>
-		<li>Coach: Shane Steichen</li>
-		<li>QB<ol>
-			<li>Anthony Richardson</li>
-			<li>Joe Flacco</li>
-			<li>Sam Ehlinger</li></ol></li>
-		<li>WR<ol>
-			<li>Michael Pittman Jr.</li>
-			<li>Ashton Dulin</li>
-			<li>Josh Downs</li>
-			<li>Anthony Gould</li></ol></li>
-		<li>RB<ol>
-			<li>Jonathon Taylor</li>
-			<li>Trey Sermon</li>
-			<li>Tyler Goodson</li></ol></ul></li>
+			<ul>
+				<li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Indianapolis_Colts_logo.svg/100px-Indianapolis_Colts_logo.svg.png" alt="Indianapolis Colts navy horsehoe logo with white dots"></li>
+				<a href="https://www.colts.com/" target="_blank">Indianapolis Colts</a>
+					<li>Coach: Shane Steichen</li>
+					<li>QB<ol>
+						<li>Anthony Richardson</li>
+							<li>Joe Flacco</li>
+							<li>Sam Ehlinger</li></ol></li>
+						<li>WR<ol>
+							<li>Michael Pittman Jr.</li>
+							<li>Ashton Dulin</li>
+							<li>Josh Downs</li>
+							<li>Anthony Gould</li></ol></li>
+					<li>RB<ol>
+							<li>Jonathon Taylor</li>
+							<li>Trey Sermon</li>
+							<li>Tyler Goodson</li></ol>
+			</ul></li>
 
+											<br>
 
+	<h1>FORM</h1>
+		<form action="collect user data">
+		First Name: <input type="text" name="fname"/>
+		Last Name: <input type="text" name="lname"/> <br>
+		Favorite Sport: <select name="favsport"/>
+			<option value="Football">Football</option>
+			<option value="Basketball">Basketball</option>
+			<option value="Volleyball">Volleyball</option>
+			<option value="Soccer">Soccer</option>
+			<option value="Tennis">Tennis</option>
+			<option value="Golf">Golf</option>
+		</select><br>
+												
+		I have:
+			<input type="checkbox" name="sportactivity" value="Attended">Attended</input>
+			<input type="checkbox" name="sportactivity" value="Played">Played</input>
+			<input type="checkbox" name="sportactivity" value="Coached">Coached</input>
+			<input type="checkbox" name="sportactivity" value="Bet on">Bet on</input>
+		this sport.<br>
 
+		For this sport I prefer:
+			<input type="radio" value="amateur" name="sportlevel">Amateur 
+			<input type="radio" value="college" name="sportlevel">College 
+			<input type="radio" value="professional" name="sportlevel">Professional <br>
 
-
-
-</body>
+			<input type="submit" value="Submit Query"/>
+		</formm>
+	</body>
 </html>
